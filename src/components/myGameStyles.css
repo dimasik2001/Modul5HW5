@@ -1,0 +1,30 @@
+.items-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.item{
+    height: 50px;
+    width: 50px;
+    transition-property: width, height, border-color, border-width;
+    transition-duration: 0.5s;
+    margin: 10px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 50%;
+}
+.item:hover{
+   width: 100px;
+   height: 100px;
+   border-color: cyan;
+   border-width: 4px;
+}
+.results-table{
+    text-align: start;
+    font-size: x-small;
+}
+.score-board
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: x-large;
+color: rgb(240, 168, 14);
+}
